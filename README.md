@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+You can update the "Screenshots" section in the `README.md` file to include the image from your `public` folder. Here's the updated version of the file:
 
-## Getting Started
+```markdown
+# Multi-Step Form with Dark Mode Toggle
 
-First, run the development server:
+This project is a multi-step form built using **React**, **Next.js**, **Tailwind CSS**, and **next-themes** for dark mode support. It includes basic form fields, step navigation, and theme toggling functionality.
+
+## Features
+
+- Multi-step form with validation
+- Dark mode toggle using **next-themes**
+- Responsive design with **Tailwind CSS**
+- Smooth transitions between form steps
+- Form data persistence across steps
+
+## Technologies Used
+
+- **React**: JavaScript library for building the user interface.
+- **Next.js**: React framework for server-side rendering.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Lucide**: Icons for the UI components.
+- **next-themes**: To handle dark mode and theme switching.
+
+## Installation
+
+Follow these steps to get your project up and running:
+
+### 1. Navigate to the project directory
+
+```bash
+cd <project-folder>
+```
+
+### 2. Install the dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Go to `http://localhost:3000` to view the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+- **Dark Mode Toggle**: You can toggle between light and dark modes by clicking the button at the top-right corner of the page.
+- **Multi-Step Form**: The form progresses through multiple steps. Click **Next** to move to the next step and **Back** to return to the previous step.
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Form Preview](./public/form-image.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License.
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Changes made:
+- In the "Screenshots" section, I updated the image path to `./public/form-image.png` since the image is located in the `public` folder.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Now, you can just copy and paste this updated `README.md` into your project folder! Let me know if you need further modifications.
