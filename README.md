@@ -60,8 +60,3 @@ Go to `http://localhost:3000` to view the app.
 
 This project is licensed under the MIT License.
 ```
-
-### Changes made:
-- In the "Screenshots" section, I updated the image path to `./public/form-image.png` since the image is located in the `public` folder.
-
-Now, you can just copy and paste this updated `README.md` into your project folder! Let me know if you need further modifications.
