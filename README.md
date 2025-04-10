@@ -1,5 +1,3 @@
-You can update the "Screenshots" section in the `README.md` file to include the image from your `public` folder. Here's the updated version of the file:
-
 ```markdown
 # Multi-Step Form with Dark Mode Toggle
 
