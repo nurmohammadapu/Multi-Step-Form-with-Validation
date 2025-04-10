@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { CheckCircle2, CircleDot, Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
-
+import { toast } from "react-hot-toast"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Step1 from './form/components/Step1';
@@ -72,7 +72,7 @@ export default function MultiStepFormPage() {
   // Final submission
   const handleSubmit = () => {
     console.log("Submitted Data:", formData)
-    alert("Form submitted! Check console.")
+    toast.success("Form submitted! Check console.")
   }
 
   return (

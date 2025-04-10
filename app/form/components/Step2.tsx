@@ -76,7 +76,7 @@ export default function Step2({ onNext, onBack, defaultValues }: Step2Props) {
                     <div className="relative">
                       <Building className="absolute left-3 top-3 h-4 w-4 text-muted-foreground dark:text-gray-400" />
                       <Input
-                        placeholder="New York"
+                        placeholder="Dhaka"
                         className="pl-10 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
                         {...field}
                       />
@@ -97,7 +97,7 @@ export default function Step2({ onNext, onBack, defaultValues }: Step2Props) {
                     <div className="relative">
                       <Hash className="absolute left-3 top-3 h-4 w-4 text-muted-foreground dark:text-gray-400" />
                       <Input
-                        placeholder="10001"
+                        placeholder="1216"
                         className="pl-10 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
                         {...field}
                       />
